@@ -1,0 +1,65 @@
+package com.sunbeam.controllers;
+
+import java.util.List;
+import java.util.Optional;
+import org.springframework.beans.factory.annotation.Autowired;
+
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.sunbeam.dtos.ResponseUtil;
+import com.sunbeam.entities.Mobile;
+import com.sunbeam.repository.MobileRepository;
+
+@RequestMapping("/Mobiles")
+@RestController
+public class MobileRestController {
+	
+	@Autowired
+	private MobileRepository mobileDao;
+	
+	@GetMapping
+	public ResponseUtil<?> findAllMobiles() {
+		 List<Mobile> list = mobileDao.findAll();
+		 return ResponseUtil.apiSuccess(list);
+	}
+	
+	@GetMapping("/{id}")
+	public ResponseUtil<?> findMobileById(@PathVariable("id") int id){
+		Optional<Mobile> om = mobileDao.findById(id);
+		return ResponseUtil.apiSuccess(om.get());
+		
+	}
+	
+	@GetMapping("/bycompany/{company}")
+	public ResponseUtil<?> findMobileById(@PathVariable("company") String company){
+		Optional<Mobile> om = mobileDao.findByCompany(company);
+		return ResponseUtil.apiSuccess(om.get());
+		
+	}
+	
+	
+	
+	@PostMapping("/AddPhone")
+	public ResponseUtil<?> saveMobile(@RequestBody Mobile m){
+	    mobileDao.save(m);
+	    return ResponseUtil.apiSuccess("Mobile added.");
+	}
+	
+//	@PutMapping("/UpdatePhone/{id}")
+//    public ResponseUtil<String> updateMobileById(@PathVariable("id") Integer id, @RequestBody Mobile um) {
+//        mobileDao.save(um);
+//    
+//
+//        	return ResponseUtil.apiSuccess("Mobile Updated");
+//        return ResponseUtil.apiError("Mobile with ID " + id + " not found");
+//            }
+ }
+
+

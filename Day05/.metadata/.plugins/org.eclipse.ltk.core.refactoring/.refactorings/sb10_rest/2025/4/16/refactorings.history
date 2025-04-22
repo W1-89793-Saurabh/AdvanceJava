@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.sunbeam.controller.BookRestControllerV1&apos; to &apos;FirstRestController&apos;&#x0D;&#x0A;- Original project: &apos;sb10_rest&apos;&#x0D;&#x0A;- Original element: &apos;com.sunbeam.controller.BookRestControllerV1&apos;&#x0D;&#x0A;- Renamed element: &apos;com.sunbeam.controller.FirstRestController&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BookRestControllerV1&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;com.sunbeam.controller{BookRestControllerV1.java[BookRestControllerV1" matchStrategy="1" name="FirstRestController" qualified="false" references="true" similarDeclarations="false" stamp="1744809719348" textual="false" version="1.0"/>
+</session>

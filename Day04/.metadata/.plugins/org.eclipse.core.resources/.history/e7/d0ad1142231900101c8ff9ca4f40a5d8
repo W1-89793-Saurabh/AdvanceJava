@@ -1,0 +1,9 @@
+package com.bank;
+
+public class FileLoggerImpl {
+
+	public FileLoggerImpl() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.bank;
+
+public class BankConfig {
+
+	public BankConfig() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

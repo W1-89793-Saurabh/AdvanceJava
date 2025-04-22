@@ -1,0 +1,12 @@
+package com.bank;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class ConsoleLoggerImpl implements Logger {
+
+	public ConsoleLoggerImpl() {
+		
+	}
+
+}

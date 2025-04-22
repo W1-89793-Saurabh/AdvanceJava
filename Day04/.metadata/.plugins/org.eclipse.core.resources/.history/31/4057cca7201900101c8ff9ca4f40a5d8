@@ -1,0 +1,16 @@
+package com.sunbeam;
+
+public class BoxImpl {
+
+	public BoxImpl implements Box {
+		
+		public BoxImpl() {
+			
+		}
+		
+		
+		
+		
+	}
+
+}

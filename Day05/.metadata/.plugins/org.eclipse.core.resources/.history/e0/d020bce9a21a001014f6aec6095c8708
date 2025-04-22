@@ -1,0 +1,67 @@
+package com.sunbeam.repository;
+
+import java.sql.Date;
+import java.util.List;
+
+import com.sunbeam.dao.CustomerDao;
+import com.sunbeam.entity.Customer;
+
+public class CustomerRepository implements CustomerDao {
+
+	@Override
+	public int save(Customer cust) {
+		String sql = "INSERT INTO customers(id, name, password, mobile, address, email, birth) VALUES (?, ?, ?, ?, ?)";
+		int count = jdbcTemplate.update(sql,b.getId(),b.getName(),b.getAuthor(),b.getSubject(),b.getPrice());
+		return count;
+		return 0;
+	}
+
+	@Override
+	public int update(Customer cust) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int deleteById(int id) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int changePassword(int custId, String password) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<Customer> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Customer findByEmail(String email) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Customer findByMoblie(String mobile) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Customer findByName(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Customer findByDateOfBirth(Date birth) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

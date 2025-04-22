@@ -1,0 +1,58 @@
+package com.sunbeam;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Import;
+
+import com.bank.ConsoleLoggerImpl;
+import com.bank.FileLoggerImpl;
+import com.bank.Logger;
+import com.sunbeam.bank.Account;
+
+
+
+@ComponentScan("com.bank")
+//@Import(BankConfig.class)
+@SpringBootApplication
+public class Sb04StereoannApplication implements CommandLineRunner {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Sb04StereoannApplication.class, args);
+		
+	}
+	
+	@Autowired
+	private ApplicationContext ctx;
+
+	@Override
+	public void run(String... args) throws Exception {
+		Logger consLogger = ctx.getBean(ConsoleLoggerImpl.class);
+		consLogger.log("Hello, Console!!");
+		
+		Logger fileLogger = ctx.getBean(FileLoggerImpl.class);
+		fileLogger.log("Hello, File!!");
+	
+		Logger logger = ctx.getBean(Logger.class); // ambiguity -- two logger beans found consoleLoggerImpl, fileLoggerImpl
+		logger.log("Hello, Message!!");			// resolve ambiguity using @Primary on one of the logger
+	
+		Account acc = ctx.getBean(Account.class);
+		acc.setLogger(consLogger); // manually set console logger in account
+		acc.setLogger(fileLogger); // manually set file logger in account
+		acc.setLogger(logger);		// manually set given logger in account 
+		System.out.println(acc);
+		acc.deposit(3000);
+		System.out.println(acc);
+		
+//		TestSpEL test = ctx.getBean(TestSpEL.class);
+//		test.display();
+		
+	}
+	
+	
+	
+
+}

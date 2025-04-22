@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Data</title>
+<style>
+  body {
+    font-family: sans-serif;
+  }
+  table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
+</head>
+<body>
+
+  <h1>Book Details</h1>
+
+  <table id="bookTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Author</th>
+        <th>Subject</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      </tbody>
+  </table>
+
+  <script>
+    const url = 'http://localhost:8080/V4/books/22';
+    const tableBody = document.querySelector('#bookTable tbody');
+
+    fetch(url)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        if (data.status === 'success' && Array.isArray(data.data)) {
+          data.data.forEach(book => {
+            const row = tableBody.insertRow();
+            const idCell = row.insertCell();
+            const nameCell = row.insertCell();
+            const authorCell = row.insertCell();
+            const subjectCell = row.insertCell();
+            const priceCell = row.insertCell();
+
+            idCell.textContent = book.id;
+            nameCell.textContent = book.name;
+            authorCell.textContent = book.author;
+            subjectCell.textContent = book.subject;
+            priceCell.textContent = book.price;
+          });
+        } else {
+          const errorRow = tableBody.insertRow();
+          const errorCell = errorRow.insertCell();
+          errorCell.colSpan = 5;
+          errorCell.textContent = 'Error: Invalid data format received.';
+        }
+      })
+      .catch(error => {
+        console.error('Error fetching data:', error);
+        const errorRow = tableBody.insertRow();
+        const errorCell = errorRow.insertCell();
+        errorCell.colSpan = 5;
+        errorCell.textContent = 'Error fetching data from the URL.';
+      });
+  </script>
+
+</body>
+</html>

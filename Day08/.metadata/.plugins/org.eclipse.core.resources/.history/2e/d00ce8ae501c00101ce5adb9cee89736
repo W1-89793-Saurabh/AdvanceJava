@@ -1,0 +1,20 @@
+package com.sunbeam.daos;
+
+
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+
+import com.sunbeam.entities.Mobile;
+
+
+public interface MobileDao extends JpaRepository<Mobile, Integer> {
+
+	Optional<Mobile> findByCompany(String company);
+
+	@Query("update mobile m set m.name=?1 , m.ram=?2, m.storage=?3, m.company=?4, m.price=?5, m.image=?6 where m.id=?7 ")
+	void updateMobileInformationById(String name, int ram, int storage, String company, double price, String image, int id );
+
+	
+}

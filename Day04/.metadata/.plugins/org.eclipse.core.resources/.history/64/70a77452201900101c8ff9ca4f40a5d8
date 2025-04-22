@@ -1,0 +1,9 @@
+package com.sunbeam;
+
+public class BoxImpl {
+
+	public BoxImpl() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

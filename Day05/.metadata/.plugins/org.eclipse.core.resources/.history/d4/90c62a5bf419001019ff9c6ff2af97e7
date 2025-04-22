@@ -1,0 +1,5 @@
+package com.sunbeam.component;
+
+public class BookComponent {
+
+}

@@ -1,0 +1,18 @@
+package com.sunbeam.dao;
+
+import java.util.List;
+
+import com.sunbeam.entity.Book;
+
+
+public interface BookDao {
+	int save(Book b);
+	int update(Book b);
+	int deleteById(int id);
+	List<Book> findAll();
+	List<Book> findBySubject(String subject);
+	Book findById(int bookId);
+	Book findByName(String bookName);
+	List<Book> findByAuthor(String bookAuthor);
+	List<Book> findByPrice(double bookPrice);
+}

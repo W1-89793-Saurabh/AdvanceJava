@@ -1,0 +1,25 @@
+package com.sunbeam;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+
+public class BookDaoImpl implements BookDAO {
+	
+	@Autowired
+	private JdbcTemplete jdbcTemplete;
+	
+	@Autowired 
+	private BookRowMapper bookRowMapper;
+	
+	public int save(Book b) {
+		String sql = "Insert into books values(?,?,?,?,?)";
+		int count = jdbcTemplate.update(sql, b.getId(), b.getName(), b.getAuthor(), b.getSubject(), b.getPrice());
+		return count;
+	}
+	
+	public List<Category> findAll() {
+		String sql = "Select * from books";
+		List<Category> list = jdbcTemplate.query(sql, bookRowMapper);
+	}
+
+}

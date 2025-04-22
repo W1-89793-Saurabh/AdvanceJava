@@ -1,0 +1,10 @@
+package com.sunbeam;
+
+public interface PersonImpl {
+//	name
+//	age
+	private String name;
+	private int age;
+	
+	
+}

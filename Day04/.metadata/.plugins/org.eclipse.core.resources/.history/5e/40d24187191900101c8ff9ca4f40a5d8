@@ -1,0 +1,75 @@
+package com.sunbeam;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.Import;
+import org.springframework.context.annotation.ImportResource;
+
+import bank.BankConfig;
+
+@Import(BankConfig.class)
+@ImportResource(locations = {"classpath:beans.xml"})
+@SpringBootApplication
+public class Sb02DepinjectionApplication {
+
+	
+	public static void main(String[] args) {
+		SpringApplication.run(Sb02DepinjectionApplication.class, args);
+	}	
+		@Autowired
+		private ApplicationContext ctx;
+		
+		public void run(String... args) throws Exception {
+			Person p1 = (Person)ctx.getBean("p1");
+			System.out.println("p1 : " + p1);
+			Account a1 = (Account) ctx.getBean("a1");
+			System.out.println("a1 : " + a1);
+			Account a2 = (Account) ctx.getBean("a2");
+			System.out.println("a2 : " + a2);
+			a2.deposit(4000);
+			System.out.println("a2 new balance : " + a2.getBalance());
+			
+			Person p2 = (Person)ctx.getBean("p2");
+			System.out.println("p2 : " + p2);
+			Account a3 = (Account) ctx.getBean("a3");
+			System.out.println("a3 : " + a3);
+			Account a4 = (Account) ctx.getBean("a4");
+			System.out.println("a4 : " + a4);
+		
+			Account a5 = (Account) ctx.getBean("a5");
+			System.out.println("a5 : " + a5);
+		}
+		
+		
+		
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

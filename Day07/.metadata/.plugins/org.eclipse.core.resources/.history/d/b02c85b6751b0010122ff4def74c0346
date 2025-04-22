@@ -1,0 +1,16 @@
+package com.sunbeam.controllers;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@AllArgsConstructor
+@Data
+public class ResponseUtil<T> {
+	private String status;
+	private String message;
+	private T data;
+	
+	public static void apiSuccess(T data){
+			ResponseUtil<T> result = new ResponceUtil<>(null, null, null);
+	}
+}

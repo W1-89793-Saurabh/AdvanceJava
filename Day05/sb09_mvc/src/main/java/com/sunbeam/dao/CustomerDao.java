@@ -1,0 +1,20 @@
+package com.sunbeam.dao;
+
+//import java.sql.Date;
+//import java.util.List;
+
+import com.sunbeam.entity.Customer;
+
+public interface CustomerDao {
+	int save(Customer cust);
+	int update(Customer cust);
+//	int deleteById(int id);
+//	int changePassword(int custId, String password);
+//	List<Customer> findAll();
+	Customer findByEmail(String email);
+//	Customer findByMoblie(String mobile);
+//	Customer findByName(String name);
+//	Customer findByDateOfBirth(Date birth);
+	
+
+}

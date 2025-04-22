@@ -1,0 +1,13 @@
+package com.sunbeam.daos;
+
+import java.util.List;
+
+import com.sunbeam.entity.Book;
+
+public interface bookDao {
+	void create(Book b);
+	void update(Book b);
+	void deleteById(int id);
+	List<Book> findAllBooks(int id);
+	List<Book> findBookById();
+}

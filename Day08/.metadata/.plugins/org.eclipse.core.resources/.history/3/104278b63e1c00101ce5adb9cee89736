@@ -1,0 +1,36 @@
+package com.sunbeam;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.sunbeam.daos.MobileDao;
+import com.sunbeam.entities.Mobile;
+
+
+@SpringBootApplication
+public class Sdjpa01Application implements CommandLineRunner {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Sdjpa01Application.class, args);
+	}
+	
+	@Autowired
+	private MobileDao mobileDao;
+	
+	public void displayAllMobiles() {
+		List<Mobile> list = mobileDao.findAll();
+		list.forEach(System.out::println);
+	}
+	
+
+	@Override
+	public void run(String... args) throws Exception {
+			
+		
+	}
+
+}

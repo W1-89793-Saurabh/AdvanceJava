@@ -1,0 +1,12 @@
+package com.sunbeam.entity;
+
+public class User {
+	
+	 id      
+	 | mname   
+	 | ram       | NULL    |                |
+	 | Company | varchar(20)   | YES  |     | NULL    |                |
+	 | price   | decimal(10,2) | YES  |     | NULL    |                |
+	 | image
+
+}

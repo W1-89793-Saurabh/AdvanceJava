@@ -1,0 +1,5 @@
+spring.application.name=sb07_Jdbc
+
+spring.datasource.url=jdbc:mysql://localhost:3306/dmcdb
+spring.datasource.username=dmc
+spring.datasource.password=dmc

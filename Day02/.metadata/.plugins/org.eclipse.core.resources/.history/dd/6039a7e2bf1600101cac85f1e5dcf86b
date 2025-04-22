@@ -1,0 +1,9 @@
+package com.sunbeam;
+
+public class Spring01App {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}
+
+}

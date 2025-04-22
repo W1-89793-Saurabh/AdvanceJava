@@ -1,0 +1,29 @@
+package com.sunbeam.controllers;
+
+import java.util.HashMap;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.sunbeam.daos.BookDao;
+import com.sunbeam.entity.Book;
+
+@RequestMapping("/V3")
+@RestController
+public class BookControllerV3 {
+	
+	@Autowired
+	private BookDao bookDao;
+	
+	@GetMapping("/books")
+	public HashMap<String, Object> getAllBooks() {
+		List<Book> list = bookDao.findAllBooks();
+		HashMap<String, Object> result  = new  HashMap<>();
+		result.put("status", "success");
+		result.put("data", list);
+		return result;
+	}
+}

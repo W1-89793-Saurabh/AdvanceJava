@@ -1,0 +1,9 @@
+@charset "ISO-8859-1";
+
+table {
+	border: none;
+}
+
+tr:nth-child(even) {
+	background-color: lightgray;
+}

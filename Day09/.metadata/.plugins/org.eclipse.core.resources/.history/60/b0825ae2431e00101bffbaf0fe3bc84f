@@ -1,0 +1,19 @@
+package com.sunbeam.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.sunbeam.dtos.ResponseUtil;
+import com.sunbeam.repository.MobileRepository;
+
+@Service
+public class MobileService {
+
+	@Autowired
+	private MobileRepository mobileRepository;
+	
+	public ResponseUtil<?> getAllMobiles(){
+		return (ResponseUtil<?>) mobileRepository.findAll();
+		
+	}
+}

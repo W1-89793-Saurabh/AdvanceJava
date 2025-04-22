@@ -1,0 +1,11 @@
+package com.sunbeam.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.sunbeam.entities.User;
+
+public interface UserDao extends JpaRepository<User, Integer> {
+
+	int save(User u, int id);
+
+}

@@ -1,0 +1,36 @@
+package com.sunbeam.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.sunbeam.Dao.BookDao;
+import com.sunbeam.entity.Book;
+
+
+@RequestMapping("/V1")
+@RestController
+public class BookRestControllerV1 {
+	
+	@Autowired
+	private BookDao bookDao;
+	
+	@GetMapping("/books")
+	public List<Book> getAllBooks() {
+		List<Book> List = bookDao.findAll();
+		return List;
+	}
+	
+	@GetMapping("/hi")
+	public @ResponseBody String sayHi() {
+		return "Hi, DMC!!";
+	}
+	@GetMapping("/bye")
+	public @ResponseBody String sayBye() {
+		return "Bye, DMC!!";
+	}
+}

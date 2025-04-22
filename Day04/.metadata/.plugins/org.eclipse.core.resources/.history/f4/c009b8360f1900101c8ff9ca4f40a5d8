@@ -1,0 +1,9 @@
+package com.sunbeam;
+
+public class PersonImpl {
+
+	public PersonImpl() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

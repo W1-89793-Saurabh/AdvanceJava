@@ -1,0 +1,67 @@
+package com.sunbeam.controllers;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.sunbeam.daos.MobileDao;
+import com.sunbeam.entities.Mobile;
+
+@RequestMapping("/Mobiles")
+@RestController
+public class MobileRestController {
+	
+	@Autowired
+	private MobileDao mobileDao;
+	
+	@GetMapping
+	public ResponseUtil<?> findAllMobiles() {
+		 List<Mobile> list = mobileDao.findAll();
+		 return ResponseUtil.apiSuccess(list);
+	}
+	
+	@GetMapping("/{id}")
+	public ResponseUtil<?> findMobileById(@PathVariable("id") int id){
+		Optional<Mobile> om = mobileDao.findById(id);
+		return ResponseUtil.apiSuccess(om.get());
+		
+	}
+	
+	@GetMapping("/bycompany/{company}")
+	public ResponseUtil<?> findMobileById(@PathVariable("company") String company){
+		Optional<Mobile> om = mobileDao.findByCompany(company);
+		return ResponseUtil.apiSuccess(om.get());
+		
+	}
+	
+	/*
+	 @PostMapping("/books")
+	public ResponseUtil<?> saveBook(@RequestBody Book b) {
+		bookDao.save(b);
+		return ResponseUtil.apiSuccess("Book added.");
+	}
+	 */
+	
+	@PostMapping("/AddPhone")
+	public ResponseUtil<?> saveMobile(@RequestBody Mobile m){
+	    mobileDao.save(m);
+	    return ResponseUtil.apiSuccess("Mobile added.");
+	}
+	
+	@PutMapping("/UpdatePhone/{id}")
+	public ResponseUtil<?> updateMobileById(@PathVariable("id") int id){
+	int c = mobileDao.updateMobileInformationById(null, count, count, null, count, null, id);
+		if(c == 1)
+			return ResponseUtil.apiSuccess("Mobile Updated");
+		return ResponseUtil.apiError("Mobile NOt Updated");
+	}
+}

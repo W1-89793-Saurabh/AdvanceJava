@@ -1,0 +1,42 @@
+package com.bank;
+
+
+import java.io.FileOutputStream;
+import java.io.PrintStream;
+
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
+@Primary
+//@Qualifier("FileLoggerImpl")
+@Component
+public class FileLoggerImpl implements Logger {
+
+	private String logFilePath = "applog.txt";
+	
+	public FileLoggerImpl() {
+		
+	}
+	
+	public String getLogFilePath() {
+		return logFilePath;
+	}
+	
+	public void setLogFilePath(String logFilePath) {
+		this.logFilePath = logFilePath;
+	}
+	
+	public void log(String message) {
+		try(FileOutputStream fout = new FileOutputStream(logFilePath,true)){
+			try(PrintStream out = new PrintStream(fout)){
+				out.println(message);
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		
+		}
+	}
+
+}

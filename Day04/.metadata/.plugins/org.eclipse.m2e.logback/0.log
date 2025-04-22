@@ -1,0 +1,472 @@
+2025-04-13 17:41:57,343 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-04-14 13:50:29,130 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-04-14 14:01:45,396 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sunbeam:Boot01Application:0.0.1-SNAPSHOT @ E:\MY WORK\Web Java\Day04\Boot01Application\pom.xml.
+2025-04-14 14:01:50,549 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Boot01Application/src/main/java
+2025-04-14 14:01:50,553 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Boot01Application/src/main/resources
+2025-04-14 14:01:50,569 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Boot01Application/src/main/resources
+2025-04-14 14:01:50,583 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Boot01Application/src/test/java
+2025-04-14 14:01:50,585 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Boot01Application/src/test/resources
+2025-04-14 14:01:53,002 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 15 sec
+2025-04-14 14:01:53,009 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-04-14 14:01:54,200 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sunbeam:Boot01Application:0.0.1-SNAPSHOT @ E:\MY WORK\Web Java\Day04\Boot01Application\pom.xml.
+2025-04-14 14:01:55,164 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Boot01Application/src/main/java
+2025-04-14 14:01:55,165 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Boot01Application/src/main/resources
+2025-04-14 14:01:55,167 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Boot01Application/src/main/resources
+2025-04-14 14:01:55,169 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Boot01Application/src/test/java
+2025-04-14 14:01:55,172 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Boot01Application/src/test/resources
+2025-04-14 14:01:55,940 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 0.00 sec 
+2025-04-14 14:01:57,402 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 14:01:57,428 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 14:01:57,440 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\Boot01Application\src\test\resources
+2025-04-14 14:09:17,603 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-04-14 14:09:18,487 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sunbeam:Boot01Application:0.0.1-SNAPSHOT @ E:\MY WORK\Web Java\Day04\Boot01Application\pom.xml.
+2025-04-14 14:09:19,214 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Boot01Application/src/main/java
+2025-04-14 14:09:19,215 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Boot01Application/src/main/resources
+2025-04-14 14:09:19,216 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Boot01Application/src/main/resources
+2025-04-14 14:09:19,217 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Boot01Application/src/test/java
+2025-04-14 14:09:19,219 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Boot01Application/src/test/resources
+2025-04-14 14:09:19,672 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-04-14 14:09:20,183 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 14:09:20,242 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 14:09:20,251 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\Boot01Application\src\test\resources
+2025-04-14 14:09:27,974 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 14:09:27,981 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 14:09:27,987 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\Boot01Application\src\test\resources
+2025-04-14 14:17:17,299 [Worker-24: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sunbeam:sb02_depinjection:0.0.1-SNAPSHOT @ E:\MY WORK\Web Java\Day04\sb02_depinjection\pom.xml.
+2025-04-14 14:17:18,175 [Worker-24: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sb02_depinjection/src/main/java
+2025-04-14 14:17:18,176 [Worker-24: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb02_depinjection/src/main/resources
+2025-04-14 14:17:18,197 [Worker-24: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb02_depinjection/src/main/resources
+2025-04-14 14:17:18,218 [Worker-24: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sb02_depinjection/src/test/java
+2025-04-14 14:17:18,219 [Worker-24: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb02_depinjection/src/test/resources
+2025-04-14 14:17:18,697 [Worker-24: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2025-04-14 14:17:18,701 [Worker-24: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-04-14 14:17:19,416 [Worker-24: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sunbeam:sb02_depinjection:0.0.1-SNAPSHOT @ E:\MY WORK\Web Java\Day04\sb02_depinjection\pom.xml.
+2025-04-14 14:17:20,290 [Worker-24: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sb02_depinjection/src/main/java
+2025-04-14 14:17:20,293 [Worker-24: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb02_depinjection/src/main/resources
+2025-04-14 14:17:20,294 [Worker-24: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb02_depinjection/src/main/resources
+2025-04-14 14:17:20,296 [Worker-24: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sb02_depinjection/src/test/java
+2025-04-14 14:17:20,297 [Worker-24: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb02_depinjection/src/test/resources
+2025-04-14 14:17:20,736 [Worker-24: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-04-14 14:17:21,360 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 14:17:21,392 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 14:17:21,403 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 14:20:10,184 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 14:20:10,190 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 14:20:10,197 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 14:22:26,875 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 14:22:26,883 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 14:22:26,889 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 14:26:21,131 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 14:26:21,139 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 14:26:21,145 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 14:29:59,650 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 14:29:59,656 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 14:29:59,662 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 14:30:25,011 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 14:30:25,017 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 14:30:25,024 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 14:32:38,404 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 14:32:38,447 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 14:32:38,458 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 14:34:23,793 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 14:34:23,800 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 14:34:23,808 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 14:40:36,622 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 14:40:36,647 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 14:40:36,657 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 14:41:04,503 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 14:41:04,510 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 14:41:04,516 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 14:45:08,538 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 14:45:08,542 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 14:45:08,547 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 14:52:18,741 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 14:52:18,755 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 14:52:18,761 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 14:53:35,234 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 14:53:35,242 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 14:53:35,247 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 14:56:33,360 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 14:56:33,361 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 14:56:33,367 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 14:57:20,284 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 14:57:20,285 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 14:57:20,290 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 15:00:12,466 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:00:12,491 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:00:12,509 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 15:02:09,026 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:02:09,063 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:02:09,076 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 15:02:33,169 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:02:33,174 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:02:33,180 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 15:12:31,763 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:12:31,772 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:12:31,778 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 15:16:16,766 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:16:16,774 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:16:16,780 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 15:17:16,179 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:17:16,185 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:17:16,192 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 15:17:28,011 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:17:28,039 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:17:28,046 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 15:17:49,251 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:17:49,335 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:17:49,342 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 15:17:59,434 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:17:59,441 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:17:59,447 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 15:19:03,831 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:19:03,838 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:19:03,845 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 15:23:13,276 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:23:13,302 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:23:13,311 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 15:25:24,972 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:25:24,980 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:25:24,987 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 15:27:28,521 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:27:28,528 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:27:28,534 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 15:29:31,453 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:29:31,475 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:29:31,497 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 15:29:54,057 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:29:54,065 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:29:54,074 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 15:32:13,420 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:32:13,427 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:32:13,432 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 15:34:55,538 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:34:55,545 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:34:55,551 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 15:40:09,008 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 15:40:09,009 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:40:09,015 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 15:40:24,141 [Worker-55: Launching sb02_depinjection - Sb02DepinjectionApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:40:24,150 [Worker-55: Launching sb02_depinjection - Sb02DepinjectionApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 15:40:24,156 [Worker-55: Launching sb02_depinjection - Sb02DepinjectionApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 15:46:28,481 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:46:28,488 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:46:28,495 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 15:49:14,776 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:49:14,783 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:49:14,788 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 15:49:35,864 [Worker-54: Launching sb02_depinjection - Sb02DepinjectionApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:49:35,872 [Worker-54: Launching sb02_depinjection - Sb02DepinjectionApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:49:35,877 [Worker-54: Launching sb02_depinjection - Sb02DepinjectionApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 15:55:12,089 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:55:12,097 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 15:55:12,101 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 16:01:17,236 [Worker-74: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sunbeam:sb03_depinjection:0.0.1-SNAPSHOT @ E:\MY WORK\Web Java\Day04\sb03_depinjection\pom.xml.
+2025-04-14 16:01:18,638 [Worker-74: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sb03_depinjection/src/main/java
+2025-04-14 16:01:18,640 [Worker-74: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb03_depinjection/src/main/resources
+2025-04-14 16:01:18,664 [Worker-74: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb03_depinjection/src/main/resources
+2025-04-14 16:01:18,671 [Worker-74: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sb03_depinjection/src/test/java
+2025-04-14 16:01:18,673 [Worker-74: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb03_depinjection/src/test/resources
+2025-04-14 16:01:19,137 [Worker-74: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2025-04-14 16:01:19,141 [Worker-74: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-04-14 16:01:20,048 [Worker-74: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sunbeam:sb03_depinjection:0.0.1-SNAPSHOT @ E:\MY WORK\Web Java\Day04\sb03_depinjection\pom.xml.
+2025-04-14 16:01:20,883 [Worker-74: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sb03_depinjection/src/main/java
+2025-04-14 16:01:20,885 [Worker-74: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb03_depinjection/src/main/resources
+2025-04-14 16:01:20,886 [Worker-74: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb03_depinjection/src/main/resources
+2025-04-14 16:01:20,886 [Worker-74: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sb03_depinjection/src/test/java
+2025-04-14 16:01:20,887 [Worker-74: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb03_depinjection/src/test/resources
+2025-04-14 16:01:21,335 [Worker-74: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-04-14 16:01:21,884 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 16:01:21,926 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 16:01:21,934 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb03_depinjection\src\test\resources
+2025-04-14 16:07:20,565 [Worker-81: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sunbeam:sb03_depinjection:0.0.1-SNAPSHOT @ E:\MY WORK\Web Java\Day04\sb03_beanlifecycle\pom.xml.
+2025-04-14 16:07:22,249 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 16:07:22,283 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 16:07:22,291 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb03_beanlifecycle\src\test\resources
+2025-04-14 16:07:23,624 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 16:07:23,627 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 16:07:23,633 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb03_beanlifecycle\src\test\resources
+2025-04-14 16:20:57,451 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 16:20:57,467 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 16:20:57,474 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb02_depinjection\src\test\resources
+2025-04-14 16:23:26,187 [Worker-89: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sunbeam:sb03_beanslifecycle:0.0.1-SNAPSHOT @ E:\MY WORK\Web Java\Day04\sb03_beanslifecycle\pom.xml.
+2025-04-14 16:23:27,105 [Worker-89: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sb03_beanslifecycle/src/main/java
+2025-04-14 16:23:27,106 [Worker-89: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb03_beanslifecycle/src/main/resources
+2025-04-14 16:23:27,113 [Worker-89: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb03_beanslifecycle/src/main/resources
+2025-04-14 16:23:27,120 [Worker-89: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sb03_beanslifecycle/src/test/java
+2025-04-14 16:23:27,121 [Worker-89: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb03_beanslifecycle/src/test/resources
+2025-04-14 16:23:27,533 [Worker-89: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2025-04-14 16:23:27,535 [Worker-89: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-04-14 16:23:28,307 [Worker-89: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sunbeam:sb03_beanslifecycle:0.0.1-SNAPSHOT @ E:\MY WORK\Web Java\Day04\sb03_beanslifecycle\pom.xml.
+2025-04-14 16:23:29,237 [Worker-89: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sb03_beanslifecycle/src/main/java
+2025-04-14 16:23:29,238 [Worker-89: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb03_beanslifecycle/src/main/resources
+2025-04-14 16:23:29,239 [Worker-89: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb03_beanslifecycle/src/main/resources
+2025-04-14 16:23:29,240 [Worker-89: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sb03_beanslifecycle/src/test/java
+2025-04-14 16:23:29,241 [Worker-89: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb03_beanslifecycle/src/test/resources
+2025-04-14 16:23:29,703 [Worker-89: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-04-14 16:23:30,246 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 16:23:30,275 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 16:23:30,290 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb03_beanslifecycle\src\test\resources
+2025-04-14 16:26:49,614 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 16:26:49,624 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 16:26:49,629 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb03_beanslifecycle\src\test\resources
+2025-04-14 16:30:06,986 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 16:30:06,992 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 16:30:06,997 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb03_beanslifecycle\src\test\resources
+2025-04-14 16:32:45,731 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 16:32:45,739 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 16:32:45,745 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb03_beanslifecycle\src\test\resources
+2025-04-14 16:35:06,415 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 16:35:06,477 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 16:35:06,488 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb03_beanslifecycle\src\test\resources
+2025-04-14 16:35:17,668 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 16:35:17,677 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 16:35:17,682 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb03_beanslifecycle\src\test\resources
+2025-04-14 16:37:29,477 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 16:37:29,485 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 16:37:29,490 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb03_beanslifecycle\src\test\resources
+2025-04-14 16:40:06,280 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 16:40:06,305 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 16:40:06,310 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb03_beanslifecycle\src\test\resources
+2025-04-14 16:40:10,134 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 16:40:10,155 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 16:40:10,160 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb03_beanslifecycle\src\test\resources
+2025-04-14 16:44:18,715 [Worker-99: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sunbeam:sb04_stereoann:0.0.1-SNAPSHOT @ E:\MY WORK\Web Java\Day04\sb04_stereoann\pom.xml.
+2025-04-14 16:44:19,869 [Worker-99: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sb04_stereoann/src/main/java
+2025-04-14 16:44:19,870 [Worker-99: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb04_stereoann/src/main/resources
+2025-04-14 16:44:19,877 [Worker-99: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb04_stereoann/src/main/resources
+2025-04-14 16:44:19,884 [Worker-99: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sb04_stereoann/src/test/java
+2025-04-14 16:44:19,888 [Worker-99: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb04_stereoann/src/test/resources
+2025-04-14 16:44:20,476 [Worker-99: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2025-04-14 16:44:20,478 [Worker-99: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-04-14 16:44:21,376 [Worker-99: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sunbeam:sb04_stereoann:0.0.1-SNAPSHOT @ E:\MY WORK\Web Java\Day04\sb04_stereoann\pom.xml.
+2025-04-14 16:44:22,258 [Worker-99: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sb04_stereoann/src/main/java
+2025-04-14 16:44:22,260 [Worker-99: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb04_stereoann/src/main/resources
+2025-04-14 16:44:22,261 [Worker-99: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb04_stereoann/src/main/resources
+2025-04-14 16:44:22,262 [Worker-99: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sb04_stereoann/src/test/java
+2025-04-14 16:44:22,263 [Worker-99: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb04_stereoann/src/test/resources
+2025-04-14 16:44:23,121 [Worker-99: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-04-14 16:44:24,202 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 16:44:24,227 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 16:44:24,235 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb04_stereoann\src\test\resources
+2025-04-14 16:46:10,821 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 16:46:10,838 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 16:46:10,843 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb04_stereoann\src\test\resources
+2025-04-14 16:48:28,696 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 16:48:28,711 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 16:48:28,716 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb04_stereoann\src\test\resources
+2025-04-14 16:49:51,075 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 16:49:51,083 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 16:49:51,091 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb04_stereoann\src\test\resources
+2025-04-14 16:50:21,881 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 16:50:21,891 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 16:50:21,896 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb04_stereoann\src\test\resources
+2025-04-14 16:51:42,221 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 16:51:42,228 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 16:51:42,234 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb04_stereoann\src\test\resources
+2025-04-14 16:54:06,849 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 16:54:06,856 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 16:54:06,862 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb04_stereoann\src\test\resources
+2025-04-14 16:54:49,956 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 16:54:49,964 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 16:54:49,971 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb04_stereoann\src\test\resources
+2025-04-14 16:56:07,424 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 16:56:07,432 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 16:56:07,437 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb04_stereoann\src\test\resources
+2025-04-14 17:09:04,799 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 17:09:04,811 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 17:09:04,823 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb04_stereoann\src\test\resources
+2025-04-14 17:11:20,401 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 17:11:20,409 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 17:11:20,414 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb04_stereoann\src\test\resources
+2025-04-14 17:28:50,323 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 17:28:50,343 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 17:28:50,349 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb04_stereoann\src\test\resources
+2025-04-14 17:29:48,234 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 17:29:48,248 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 17:29:48,255 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb04_stereoann\src\test\resources
+2025-04-14 17:30:11,498 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 17:30:11,520 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 17:30:11,525 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb04_stereoann\src\test\resources
+2025-04-14 17:30:31,562 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 17:30:31,569 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 17:30:31,577 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb04_stereoann\src\test\resources
+2025-04-14 17:32:19,370 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 17:32:19,378 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 17:32:19,382 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb04_stereoann\src\test\resources
+2025-04-14 17:43:53,121 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 17:43:53,132 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 17:43:53,137 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb04_stereoann\src\test\resources
+2025-04-14 17:48:24,488 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 17:48:24,495 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 17:48:24,502 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb04_stereoann\src\test\resources
+2025-04-14 17:51:41,505 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 17:51:41,511 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 17:51:41,516 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb04_stereoann\src\test\resources
+2025-04-14 17:57:42,408 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 17:57:42,430 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 17:57:42,435 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb04_stereoann\src\test\resources
+2025-04-14 18:00:41,453 [Worker-144: Launching sb04_stereoann - Sb04StereoannApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 18:00:41,461 [Worker-144: Launching sb04_stereoann - Sb04StereoannApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 18:00:41,466 [Worker-144: Launching sb04_stereoann - Sb04StereoannApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb04_stereoann\src\test\resources
+2025-04-14 18:02:09,106 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 18:02:09,113 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 18:02:09,118 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb04_stereoann\src\test\resources
+2025-04-14 18:09:55,901 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 18:09:55,909 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 18:09:55,915 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb04_stereoann\src\test\resources
+2025-04-14 18:22:42,521 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 18:22:42,528 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 18:22:42,533 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb04_stereoann\src\test\resources
+2025-04-14 18:25:06,130 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 18:25:06,137 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 18:25:06,142 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb04_stereoann\src\test\resources
+2025-04-14 18:36:55,017 [Worker-157: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sunbeam:sb07_JDBC:0.0.1-SNAPSHOT @ E:\MY WORK\Web Java\Day04\sb07_JDBC\pom.xml.
+2025-04-14 18:36:55,536 [Worker-157: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.4.4/spring-boot-starter-web-services-3.4.4.pom
+2025-04-14 18:36:55,597 [Worker-157: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.4.4/spring-boot-starter-web-services-3.4.4.pom
+2025-04-14 18:36:56,305 [Worker-157: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/messaging/saaj/saaj-impl/3.0.4/saaj-impl-3.0.4.pom
+2025-04-14 18:36:56,429 [Worker-157: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/messaging/saaj/saaj-impl/3.0.4/saaj-impl-3.0.4.pom
+2025-04-14 18:36:56,489 [Worker-157: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/messaging/saaj/metro-saaj/3.0.4/metro-saaj-3.0.4.pom
+2025-04-14 18:36:56,558 [Worker-157: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/messaging/saaj/metro-saaj/3.0.4/metro-saaj-3.0.4.pom
+2025-04-14 18:36:56,620 [Worker-157: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/3.0.2/jakarta.xml.soap-api-3.0.2.pom
+2025-04-14 18:36:56,691 [Worker-157: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/3.0.2/jakarta.xml.soap-api-3.0.2.pom
+2025-04-14 18:36:56,767 [Worker-157: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/2.1.0/stax-ex-2.1.0.pom
+2025-04-14 18:36:56,825 [Worker-157: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/2.1.0/stax-ex-2.1.0.pom
+2025-04-14 18:36:56,942 [Worker-157: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/4.0.2/jakarta.xml.ws-api-4.0.2.pom
+2025-04-14 18:36:56,993 [Worker-157: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/4.0.2/jakarta.xml.ws-api-4.0.2.pom
+2025-04-14 18:36:57,059 [Worker-157: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.2.5/spring-oxm-6.2.5.pom
+2025-04-14 18:36:57,097 [Worker-157: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.2.5/spring-oxm-6.2.5.pom
+2025-04-14 18:36:57,137 [Worker-157: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-core/4.0.12/spring-ws-core-4.0.12.pom
+2025-04-14 18:36:57,177 [Worker-157: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-core/4.0.12/spring-ws-core-4.0.12.pom
+2025-04-14 18:36:57,213 [Worker-157: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/ws/spring-xml/4.0.12/spring-xml-4.0.12.pom
+2025-04-14 18:36:57,256 [Worker-157: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/ws/spring-xml/4.0.12/spring-xml-4.0.12.pom
+2025-04-14 18:36:57,858 [Worker-157: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.4.4/spring-boot-starter-web-services-3.4.4.jar
+2025-04-14 18:36:57,942 [Worker-157: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.4.4/spring-boot-starter-web-services-3.4.4.jar
+2025-04-14 18:36:57,967 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/3.0.2/jakarta.xml.soap-api-3.0.2.jar
+2025-04-14 18:36:58,017 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/4.0.2/jakarta.xml.ws-api-4.0.2.jar
+2025-04-14 18:36:58,024 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.2.5/spring-oxm-6.2.5.jar
+2025-04-14 18:36:58,053 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/2.1.0/stax-ex-2.1.0.jar
+2025-04-14 18:36:58,055 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/messaging/saaj/saaj-impl/3.0.4/saaj-impl-3.0.4.jar
+2025-04-14 18:36:58,145 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/4.0.2/jakarta.xml.ws-api-4.0.2.jar
+2025-04-14 18:36:58,145 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.2.5/spring-oxm-6.2.5.jar
+2025-04-14 18:36:58,193 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/ws/spring-xml/4.0.12/spring-xml-4.0.12.jar
+2025-04-14 18:36:58,193 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-core/4.0.12/spring-ws-core-4.0.12.jar
+2025-04-14 18:36:58,316 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/ws/spring-xml/4.0.12/spring-xml-4.0.12.jar
+2025-04-14 18:36:58,346 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/messaging/saaj/saaj-impl/3.0.4/saaj-impl-3.0.4.jar
+2025-04-14 18:36:58,453 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-core/4.0.12/spring-ws-core-4.0.12.jar
+2025-04-14 18:36:59,157 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/2.1.0/stax-ex-2.1.0.jar
+2025-04-14 18:36:59,258 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/3.0.2/jakarta.xml.soap-api-3.0.2.jar
+2025-04-14 18:37:00,022 [Worker-157: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sb07_JDBC/src/main/java
+2025-04-14 18:37:00,023 [Worker-157: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb07_JDBC/src/main/resources
+2025-04-14 18:37:00,030 [Worker-157: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb07_JDBC/src/main/resources
+2025-04-14 18:37:00,035 [Worker-157: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sb07_JDBC/src/test/java
+2025-04-14 18:37:00,037 [Worker-157: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb07_JDBC/src/test/resources
+2025-04-14 18:37:00,772 [Worker-166: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.4.4/spring-boot-starter-web-services-3.4.4-sources.jar
+2025-04-14 18:37:00,787 [Worker-166: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.4.4/spring-boot-starter-web-services-3.4.4-sources.jar
+2025-04-14 18:37:00,798 [Worker-166: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-web-services:3.4.4
+2025-04-14 18:37:00,896 [Worker-166: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/messaging/saaj/saaj-impl/3.0.4/saaj-impl-3.0.4-sources.jar
+2025-04-14 18:37:01,086 [Worker-166: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/messaging/saaj/saaj-impl/3.0.4/saaj-impl-3.0.4-sources.jar
+2025-04-14 18:37:01,094 [Worker-166: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.xml.messaging.saaj:saaj-impl:3.0.4
+2025-04-14 18:37:01,173 [Worker-166: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/3.0.2/jakarta.xml.soap-api-3.0.2-sources.jar
+2025-04-14 18:37:01,280 [Worker-166: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/3.0.2/jakarta.xml.soap-api-3.0.2-sources.jar
+2025-04-14 18:37:01,288 [Worker-166: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.xml.soap:jakarta.xml.soap-api:3.0.2
+2025-04-14 18:37:01,377 [Worker-166: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/2.1.0/stax-ex-2.1.0-sources.jar
+2025-04-14 18:37:02,369 [Worker-166: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/2.1.0/stax-ex-2.1.0-sources.jar
+2025-04-14 18:37:02,376 [Worker-166: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jvnet.staxex:stax-ex:2.1.0
+2025-04-14 18:37:02,458 [Worker-166: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/4.0.2/jakarta.xml.ws-api-4.0.2-sources.jar
+2025-04-14 18:37:02,581 [Worker-166: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/4.0.2/jakarta.xml.ws-api-4.0.2-sources.jar
+2025-04-14 18:37:02,587 [Worker-166: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.xml.ws:jakarta.xml.ws-api:4.0.2
+2025-04-14 18:37:02,663 [Worker-166: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.2.5/spring-oxm-6.2.5-sources.jar
+2025-04-14 18:37:02,884 [Worker-157: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 8 sec
+2025-04-14 18:37:02,886 [Worker-157: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-04-14 18:37:03,831 [Worker-157: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sunbeam:sb07_JDBC:0.0.1-SNAPSHOT @ E:\MY WORK\Web Java\Day04\sb07_JDBC\pom.xml.
+2025-04-14 18:37:04,100 [Worker-166: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.2.5/spring-oxm-6.2.5-sources.jar
+2025-04-14 18:37:04,107 [Worker-166: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-oxm:6.2.5
+2025-04-14 18:37:04,183 [Worker-166: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-core/4.0.12/spring-ws-core-4.0.12-sources.jar
+2025-04-14 18:37:04,396 [Worker-166: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-core/4.0.12/spring-ws-core-4.0.12-sources.jar
+2025-04-14 18:37:04,403 [Worker-166: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.ws:spring-ws-core:4.0.12
+2025-04-14 18:37:04,481 [Worker-166: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/ws/spring-xml/4.0.12/spring-xml-4.0.12-sources.jar
+2025-04-14 18:37:04,590 [Worker-166: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/ws/spring-xml/4.0.12/spring-xml-4.0.12-sources.jar
+2025-04-14 18:37:04,597 [Worker-166: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.ws:spring-xml:4.0.12
+2025-04-14 18:37:05,207 [Worker-157: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sb07_JDBC/src/main/java
+2025-04-14 18:37:05,226 [Worker-157: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb07_JDBC/src/main/resources
+2025-04-14 18:37:05,227 [Worker-157: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb07_JDBC/src/main/resources
+2025-04-14 18:37:05,228 [Worker-157: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sb07_JDBC/src/test/java
+2025-04-14 18:37:05,229 [Worker-157: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sb07_JDBC/src/test/resources
+2025-04-14 18:37:06,148 [Worker-157: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 0.00 sec 
+2025-04-14 18:37:07,582 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 18:37:07,606 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 18:37:07,613 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb07_JDBC\src\test\resources
+2025-04-14 18:37:40,931 [Worker-164: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 18:37:40,939 [Worker-164: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 18:37:40,946 [Worker-164: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb07_JDBC\src\test\resources
+2025-04-14 18:39:15,907 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 18:39:15,951 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 18:39:15,961 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb07_JDBC\src\test\resources
+2025-04-14 18:39:30,000 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 18:39:30,010 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 18:39:30,017 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb07_JDBC\src\test\resources
+2025-04-14 18:46:18,983 [Worker-176: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 18:46:19,011 [Worker-176: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 18:46:19,016 [Worker-176: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb07_JDBC\src\test\resources
+2025-04-14 18:48:24,389 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 18:48:24,410 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 18:48:24,415 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb07_JDBC\src\test\resources
+2025-04-14 18:48:47,857 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 18:48:47,864 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 18:48:47,869 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb07_JDBC\src\test\resources
+2025-04-14 18:52:07,931 [Worker-180: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 18:52:07,939 [Worker-180: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 18:52:07,944 [Worker-180: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb07_JDBC\src\test\resources
+2025-04-14 18:53:51,014 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 18:53:51,042 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 18:53:51,048 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb07_JDBC\src\test\resources
+2025-04-14 19:00:31,125 [Worker-185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 19:00:31,134 [Worker-185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 19:00:31,138 [Worker-185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb07_JDBC\src\test\resources
+2025-04-14 21:32:57,062 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 21:32:57,068 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 21:32:57,072 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb07_JDBC\src\test\resources
+2025-04-14 21:36:23,712 [Worker-192: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 21:36:23,713 [Worker-192: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 21:36:23,718 [Worker-192: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb07_JDBC\src\test\resources
+2025-04-14 22:05:44,952 [Worker-196: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 22:05:44,975 [Worker-196: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 22:05:44,990 [Worker-196: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb07_JDBC\src\test\resources
+2025-04-14 22:12:16,422 [Worker-196: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 22:12:16,471 [Worker-196: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 22:12:16,482 [Worker-196: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb07_JDBC\src\test\resources
+2025-04-14 22:17:01,342 [Worker-198: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sunbeam:sb07_JDBC:0.0.1-SNAPSHOT @ E:\MY WORK\Web Java\Day04\sb07_JDBC\pom.xml.
+2025-04-14 22:17:02,809 [Worker-198: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sb03_beanslifecycle: com.sunbeam:sb03_beanslifecycle:0.0.1-SNAPSHOT with classifier  to /sb03_beanslifecycle/target/classes
+2025-04-14 22:17:04,000 [Worker-198: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 22:17:04,002 [Worker-198: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 22:17:04,023 [Worker-198: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb07_JDBC\src\test\resources
+2025-04-14 22:17:06,251 [Worker-197: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 22:17:06,281 [Worker-197: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 22:17:06,286 [Worker-197: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb07_JDBC\src\test\resources
+2025-04-14 22:20:50,037 [Worker-202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 22:20:50,053 [Worker-202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 22:20:50,058 [Worker-202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb07_JDBC\src\test\resources
+2025-04-14 22:26:11,755 [Worker-199: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 22:26:11,764 [Worker-199: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 22:26:11,768 [Worker-199: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb07_JDBC\src\test\resources
+2025-04-14 22:33:50,698 [Worker-206: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 22:33:50,706 [Worker-206: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 22:33:50,711 [Worker-206: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb07_JDBC\src\test\resources
+2025-04-14 22:34:10,891 [Worker-199: Launching sb07_JDBC - Sb07JdbcApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 22:34:10,902 [Worker-199: Launching sb07_JDBC - Sb07JdbcApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 22:34:10,906 [Worker-199: Launching sb07_JDBC - Sb07JdbcApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb07_JDBC\src\test\resources
+2025-04-14 22:34:13,533 [Worker-199: Launching sb07_JDBC - Sb07JdbcApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sb03_beanslifecycle: com.sunbeam:sb03_beanslifecycle:0.0.1-SNAPSHOT with classifier null to /sb03_beanslifecycle/target/classes
+2025-04-14 22:34:13,692 [Worker-199: Launching sb07_JDBC - Sb07JdbcApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sb03_beanslifecycle: com.sunbeam:sb03_beanslifecycle:0.0.1-SNAPSHOT with classifier null to /sb03_beanslifecycle/target/classes
+2025-04-14 22:34:13,842 [Worker-199: Launching sb07_JDBC - Sb07JdbcApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sb03_beanslifecycle: com.sunbeam:sb03_beanslifecycle:0.0.1-SNAPSHOT with classifier null to /sb03_beanslifecycle/target/classes
+2025-04-14 22:35:04,439 [Worker-207: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-14 22:35:04,450 [Worker-207: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-14 22:35:04,454 [Worker-207: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MY WORK\Web Java\Day04\sb07_JDBC\src\test\resources
+2025-04-14 22:35:21,923 [Worker-208: Launching sb07_JDBC - Sb07JdbcApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sb03_beanslifecycle: com.sunbeam:sb03_beanslifecycle:0.0.1-SNAPSHOT with classifier null to /sb03_beanslifecycle/target/classes
+2025-04-14 22:35:22,070 [Worker-208: Launching sb07_JDBC - Sb07JdbcApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sb03_beanslifecycle: com.sunbeam:sb03_beanslifecycle:0.0.1-SNAPSHOT with classifier null to /sb03_beanslifecycle/target/classes
+2025-04-14 22:35:22,230 [Worker-208: Launching sb07_JDBC - Sb07JdbcApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sb03_beanslifecycle: com.sunbeam:sb03_beanslifecycle:0.0.1-SNAPSHOT with classifier null to /sb03_beanslifecycle/target/classes
+2025-04-14 22:41:50,588 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-04-14 22:42:21,465 [Worker-7: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sb03_beanslifecycle: com.sunbeam:sb03_beanslifecycle:0.0.1-SNAPSHOT with classifier  to /sb03_beanslifecycle/target/classes
+2025-04-14 22:43:36,401 [Worker-2: Launching sb07_JDBC - Sb07JdbcApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sb03_beanslifecycle: com.sunbeam:sb03_beanslifecycle:0.0.1-SNAPSHOT with classifier null to /sb03_beanslifecycle/target/classes
+2025-04-14 22:43:36,674 [Worker-2: Launching sb07_JDBC - Sb07JdbcApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sb03_beanslifecycle: com.sunbeam:sb03_beanslifecycle:0.0.1-SNAPSHOT with classifier null to /sb03_beanslifecycle/target/classes
+2025-04-14 22:43:36,945 [Worker-2: Launching sb07_JDBC - Sb07JdbcApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sb03_beanslifecycle: com.sunbeam:sb03_beanslifecycle:0.0.1-SNAPSHOT with classifier null to /sb03_beanslifecycle/target/classes

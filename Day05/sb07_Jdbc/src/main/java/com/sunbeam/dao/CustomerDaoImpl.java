@@ -1,0 +1,43 @@
+package com.sunbeam.dao;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.RowMapper;
+import org.springframework.stereotype.Repository;
+
+import com.sunbeam.entity.Customer;
+
+@Repository
+public class CustomerDaoImpl implements CustomerDao {
+
+	@Autowired
+	private JdbcTemplate jdbcTemplate;
+	
+	@Autowired
+	private RowMapper<Customer> custRowMapper;
+	
+	@Override
+	public int save(Customer cust) {
+		String sql = "INSERT INTO customers(id, name, password, email, mobile, address, birth) VALUES (?, ?, ?, ?, ?, ?, ?)";
+		int count = jdbcTemplate.update(sql, cust.getId(), cust.getName(), cust.getPassword(), cust.getEmail(), cust.getMobile(), cust.getAddress(), cust.getBirth());
+		return count;
+	}
+
+	@Override
+	public int changePassword(int custId, String password) {
+		String sql = "UPDATE customers SET password=? WHERE id=?";
+		int count = jdbcTemplate.update(sql, password, custId);
+		return count;
+	}
+
+	@Override
+	public Customer findByEmail(String email) {
+		String sql = "SELECT * FROM customers WHERE email = ?";
+		
+		List<Customer> list = jdbcTemplate.query(sql, custRowMapper, email);
+		return list.isEmpty() ? null : list.get(0);
+	}
+
+}

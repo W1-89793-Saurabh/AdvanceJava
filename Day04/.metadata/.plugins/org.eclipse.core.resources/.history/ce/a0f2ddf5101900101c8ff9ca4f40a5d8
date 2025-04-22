@@ -1,0 +1,9 @@
+package com.sunbeam;
+
+public class AccountImpl {
+
+	public AccountImpl() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

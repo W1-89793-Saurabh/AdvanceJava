@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Subjects</title>
+</head>
+<body>
+	<form method="post" action="showbooks">
+		<label for="subject">Subject: </label>
+		<select id="subject" name="subject">
+			<option value="C">C</option>
+			<option value="CPP">C++</option>
+			<option value="JAVA">Java</option>
+			<option value="OS">OS</option>
+			<option value="NOVEL">Novel</option>
+		</select> <br/><br/>
+		<input type="submit" value="Submit"/>
+	</form>
+</body>
+</html>

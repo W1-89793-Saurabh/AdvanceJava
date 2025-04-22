@@ -1,0 +1,60 @@
+package com.sunbeam.daos;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
+
+import com.sunbeam.entity.Book;
+
+@Repository
+public class BookDaoImpl implements BookDao {
+	
+	@Autowired
+	private JdbcTemplate jdbcTemplate;
+	
+	@Autowired
+	private BookRowMapper RowMapper;
+
+	@Override
+	public int create(Book b) {
+		String sql = "Insert into Books(id, name, author, subject, price) values(?,?,?,?,?)";
+		int count = jdbcTemplate.update(sql, b.getId(),b.getName(),b.getAuthor(),b.getSubject(),b.getPrice());
+		return count;
+		
+	}
+
+	@Override
+	public int update(Book b) {
+		String sql = "Update books set name=? , author=?, subject=?, price=? where id = ?";
+		int count = jdbcTemplate.update(sql, b.getName(),b.getAuthor(),b.getSubject(),b.getPrice(),b.getId());
+		return count;
+		
+	}
+
+	@Override
+	public int deleteById(int id) {
+		String sql = "DELETE FROM books WHERE id = ?";
+		int count = jdbcTemplate.update(sql, id);
+		return count;
+		
+		
+	}
+
+	@Override
+	public List<Book> findAllBooks() {
+		String sql = "Select * from books";
+		List<Book> list = jdbcTemplate.query(sql, RowMapper);
+		return list;
+	}
+
+	@Override
+	public List<Book> findBookById(int id ) {
+		String sql = "Select * from books where id = ?";
+		List<Book> list = jdbcTemplate.query(sql, RowMapper, id);
+		return list;
+		
+	}
+
+}

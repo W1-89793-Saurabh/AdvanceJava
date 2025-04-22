@@ -1,0 +1,26 @@
+package com.sunbeam.entity;
+
+//import org.springframework.web.multipart.MultipartFile;
+
+//import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.RequiredArgsConstructor;
+
+@RequiredArgsConstructor
+@AllArgsConstructor
+@Data
+public class Mobile {
+	private int id;      
+	 @JsonProperty("mname")
+	 private String name;   
+	 private int ram;  
+	 private int storage;
+	 private String company;
+	 private double price;  
+//	 @JsonManagedReference
+//	 private MultipartFile image;
+	 private String image;
+}

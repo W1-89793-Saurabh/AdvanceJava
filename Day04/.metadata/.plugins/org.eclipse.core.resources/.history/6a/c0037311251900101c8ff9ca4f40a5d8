@@ -1,0 +1,12 @@
+package com.bank;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class FileLoggerImpl implements Logger {
+
+	public FileLoggerImpl() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

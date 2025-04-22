@@ -1,0 +1,9 @@
+package com.bank;
+
+public class ConsoleLoggerImpl {
+
+	public ConsoleLoggerImpl() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

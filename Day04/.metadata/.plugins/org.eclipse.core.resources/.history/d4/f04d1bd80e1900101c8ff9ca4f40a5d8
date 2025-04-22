@@ -1,0 +1,13 @@
+package com.sunbeam;
+
+public interface PersonImpl {
+//	name
+//	age
+void getName(String name);
+String setName();
+void getAge(int age);
+int setAge();
+
+	
+	
+}

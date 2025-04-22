@@ -1,0 +1,19 @@
+package com.sunbeam;
+
+public class AppConfig {
+
+	public BoxImpl b1() {
+		BoxImpl b = new BoxImpl();
+		b.setLength(5);
+		b.setBreadth(4);
+		b.setHeight(3);
+		return b;
+		
+		
+	}
+	
+	public BoxImpl b2() {
+		BoxImpl b = new BoxImpl(10,8,6);
+		return b;
+	}
+}
